@@ -1,22 +1,21 @@
-# rollup-plugin-img
+# rollup-plugin-images
 
 Import image files with rollup. Let you import images just like what you do with webpack in your React code!
 
-
 ## Installation
 
-    yarn add --dev rollup-plugin-img
-    
-or 
+    yarn add --dev rollup-plugin-images
 
-    npm install -D rollup-plugin-img
-    
+or
+
+    npm install -D rollup-plugin-images
+
 ## Usage
 
 In the rollup.config.js:
 
 ```JavaScript
-import image from 'rollup-plugin-img';
+import image from 'rollup-plugin-images';
 
 export default {
   entry: 'src/index.js',
@@ -67,4 +66,3 @@ demo:
 ## License
 
 MIT
-
