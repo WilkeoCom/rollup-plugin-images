@@ -4,8 +4,13 @@
   "description": "Import JPG, PNG, GIF and SVG images for React Native",
   "main": "dist/index.cjs.js",
   "module": "dist/index.es.js",
-  "repository": "https://github.com/WilkeoCom/rollup-plugin-images.git",
-  "bugs": "https://github.com/WilkeoCom/rollup-plugin-images/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WilkeoCom/rollup-plugin-images.git"
+  },
+  "bugs": {
+    "url": "https://github.com/WilkeoCom/rollup-plugin-images/issues"
+  },
   "author": "Romain Baiguerra",
   "license": "MIT",
   "files": [
@@ -16,6 +21,7 @@
   "keywords": [
     "rollup",
     "rollup-plugin",
+    "modules",
     "image"
   ],
   "scripts": {
@@ -33,5 +39,6 @@
   },
   "dependencies": {
     "rollup-pluginutils": "^2.0.1"
-  }
+  },
+  "homepage": "https://github.com/WilkeoCom/rollup-plugin-images#readme"
 }
